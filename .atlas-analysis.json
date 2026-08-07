@@ -1,20 +1,11 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
-  "name": "Galileo",
+  "projectType": "saas",
+  "projectName": "Galileo",
+  "projectDescription": "Galileo is a premium direct-to-consumer lifestyle brand offering a curated collection of apparel, accessories, and skincare products with a focus on natural materials and refined design.",
   "theme": "willow",
-  "colors": {
-    "primary": "#ef7025",
-    "light": "#eec9bc",
-    "dark": "#4fa1ab"
-  },
-  "favicon": "/favicon.svg",
-  "navbar": {
-    "primary": {
-      "type": "button",
-      "label": "Shop Now",
-      "href": "https://galileo.com"
-    }
-  },
+  "primaryColor": "#ef7025",
+  "lightColor": "#eec9bc",
+  "darkColor": "#4fa1ab",
   "navigation": {
     "tabs": [
       {
@@ -37,7 +28,7 @@
             ]
           },
           {
-            "group": "Bag & Checkout",
+            "group": "Your Bag & Checkout",
             "pages": [
               "shopping/cart",
               "shopping/checkout",
@@ -76,5 +67,23 @@
         ]
       }
     ]
-  }
+  },
+  "keyFeatures": [
+    "Curated apparel collection including lifestyle mats, vessels, and protective cases",
+    "Accessories and skincare line featuring handcrafted soaps and mineral bath soaks",
+    "Bundled gift sets (The Galileo Set) combining complementary products",
+    "Split-category browsing experience with Apparel and Accessories sections",
+    "Sliding cart drawer for seamless bag management",
+    "Complimentary shipping on all orders",
+    "Clean, minimal checkout with order confirmation"
+  ],
+  "publicApiSurface": [
+    "Apparel category — The Mat ($185), The Vessel ($145), The Case ($95)",
+    "Accessories category — The Bar ($48), The Soak ($65), The Galileo Set ($110)",
+    "Add to Bag from product listing cards",
+    "Add to Bag from product detail pages",
+    "Cart drawer — view, adjust quantity, remove items",
+    "Checkout form — full name, email, shipping address, city, postal code",
+    "Order confirmation flow"
+  ]
 }
